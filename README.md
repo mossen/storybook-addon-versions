@@ -3,12 +3,12 @@
 ## Install
 
 ```sh
-npm i @mossen/storybook-addon-versions
+npm i @mossen/sb-addon-versions
 
 ```
 
 ```sh
-npm i @mossen/storybook-addon-versions
+npm i @mossen/sb-addon-versions
 
 ```
 
@@ -35,7 +35,7 @@ The addon attempts to get a list of available style guide versions from the root
 1. Include the addon in your `addons.js`
 
 ```javascript
-import '@mossen/storybook-addon-versions';
+import '@mossen/sb-addon-versions';
 ```
 
 2. Create the Versions config at `.storybook/storybook-config.json`

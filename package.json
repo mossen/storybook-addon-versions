@@ -1,5 +1,5 @@
 {
-  "name": "storybook-addon-versions",
+  "name": "sb-addon-versions",
   "version": "1.0.9",
   "description": "Manage having different versions of the storybook.",
   "keywords": [
