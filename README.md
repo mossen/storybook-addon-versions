@@ -4,12 +4,12 @@ Supporting Storybook version 7^.
 ## Install
 
 ```sh
-npm install @mossen/sb-addon-versions --save-dev
+npm install sb-addon-versions --save-dev
 
 ```
 
 ```sh
-yarn add -D @mossen/sb-addon-versions
+yarn add -D sb-addon-versions
 
 ```
 
@@ -33,10 +33,26 @@ The addon attempts to get a list of available style guide versions from the root
 
 ## Usage
 
-1. Include the addon in your `addons.js`
+1. Include the addon in your `main.js`
 
 ```javascript
-import '@mossen/sb-addon-versions';
+module.exports = {
+  stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
+  addons: [
+    '@storybook/react-vite',
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    'sb-addon-versions',
+  ],
+  framework: {
+    name: '@storybook/react-vite',
+  },
+  docs: {
+    autodocs: true,
+  },
+  staticDirs: '',
+};
+
 ```
 
 2. Create the Versions config at `.storybook/storybook-config.json`
