@@ -10,8 +10,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "]https://github.com/mossen/storybook-addon-versions"
+    "url": "git+https://github.com/mossen/storybook-addon-versions.git"
   },
+  "bugs": {
+    "url": "https://github.com/mossen/storybook-addon-versions/issues"
+  },
+  "homepage": "https://github.com/mossen/storybook-addon-versions#readme",
   "author": "Mohsen Khodadadi <kh.mossen@gmail.com>",
   "license": "MIT",
   "exports": {
