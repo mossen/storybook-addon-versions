@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-versions",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "Manage having different versions of the storybook.",
   "keywords": [
     "storybook",
