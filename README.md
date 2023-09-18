@@ -3,12 +3,12 @@
 ## Install
 
 ```sh
-npm i @mossen/sb-addon-versions
+npm install @mossen/sb-addon-versions --save-dev
 
 ```
 
 ```sh
-npm i @mossen/sb-addon-versions
+yarn add -D @mossen/sb-addon-versions
 
 ```
 
