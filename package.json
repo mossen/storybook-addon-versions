@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-versions",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Manage having different versions of the storybook.",
   "keywords": [
     "storybook", "addon", "versions", "storybook-addons"
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "]https://github.com/mossen/storybook-addon-versions"
   },
-  "author": "storybook-addon-versions <kh.mossen@gmail.com>",
+  "author": "Mohsen Khodadadi <kh.mossen@gmail.com>",
   "license": "MIT",
   "exports": {
     ".": {
