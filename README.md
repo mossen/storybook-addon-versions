@@ -1,5 +1,6 @@
 # storybook-addon-versions
 
+Supporting Storybook version 7^.
 ## Install
 
 ```sh
