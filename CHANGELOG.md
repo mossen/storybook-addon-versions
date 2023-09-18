@@ -1,3 +1,15 @@
+# v1.0.12 (Mon Sep 18 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Update README.md (mohsen.khodadadi@coatesgroup.com)
+
+#### Authors: 1
+
+- Mohsen Khodadadi (mohsen.khodadadi@coatesgroup.com)
+
+---
+
 # v1.0.11 (Mon Sep 18 2023)
 
 #### ⚠️ Pushed to `main`
